@@ -20,7 +20,7 @@ This repository will track schematic/PCB sources, the bill of materials, and fir
 ## Planned Features
 
 - **CI-V support** — ICOM radios (IC-7300, IC-705, IC-9700, IC-7610, and others) via a 3.5mm jack
-- **CAT support** — Yaesu / Kenwood radios via RS-232 (DB9) through a MAX202 level shifter
+- **CAT support** — Yaesu / Kenwood radios (FT-891, FT-991A, FT-DX10, TS-590, TS-890, and others) via RS-232 (DB9) through a MAX202 level shifter
 - **BLE GATT service** — frequency, mode, submode, TX power and rig model pushed live to any connected app
 - **Rechargeable** — LiPo battery with USB-C charging (TC4056A) and protection (DW01A + FS8205A)
 - **USB-C native flashing** — no external USB-serial adapter needed; flash directly over the same USB-C port
