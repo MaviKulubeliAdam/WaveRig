@@ -8,7 +8,7 @@ WaveRig connects to your radio's CI-V (ICOM) or CAT (Yaesu/Kenwood) interface, r
 
 ## Status: Early hardware development
 
-- 🔧 Schematic in progress (EasyEDA)
+- 🔧 Schematic in progress
 - ⬜ PCB layout not started yet (65×45 mm, 2-layer target)
 - ⬜ Firmware not started yet
 - ⬜ No boards fabricated/tested yet
