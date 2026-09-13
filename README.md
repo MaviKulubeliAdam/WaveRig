@@ -63,4 +63,4 @@ Licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
-By TA4RX / SP9AQG (firmware / software) and Süalp, TA4HCK (schematic / PCB)
+By Erkin, TA4RX / SP9AQG (firmware / software) and Süalp, TA4HCK (schematic / PCB)
