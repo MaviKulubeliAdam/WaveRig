@@ -8,8 +8,8 @@ WaveRig connects to your radio's CI-V (ICOM) or CAT (Yaesu/Kenwood) interface, r
 
 ## Status: Early hardware development
 
-- ✅ Schematic complete (EasyEDA)
-- 🔧 PCB layout in progress (65×45 mm, 2-layer target)
+- 🔧 Schematic in progress (EasyEDA)
+- ⬜ PCB layout not started yet (65×45 mm, 2-layer target)
 - ⬜ Firmware not started yet
 - ⬜ No boards fabricated/tested yet
 
@@ -38,7 +38,7 @@ This repository will track schematic/PCB sources, the bill of materials, and fir
 | Display | I2C OLED (SSD1306, 4-pin connector) |
 | PCB | 65×45mm, 2-layer |
 
-Full BOM, pin assignments and net-by-net connection notes will be published in this repo as the hardware design is finalized.
+Schematic and PCB design are being developed by **Süalp, TA4HCK**. Full BOM, pin assignments and net-by-net connection notes will be published in this repo as the hardware design is finalized.
 
 ## Firmware Roadmap
 
@@ -63,4 +63,4 @@ Licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
-By TA4RX / SP9AQG
+By TA4RX / SP9AQG (firmware / software) and Süalp, TA4HCK (schematic / PCB)
