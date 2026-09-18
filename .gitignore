@@ -1,0 +1,9 @@
+# KiCad auto-save / local-only files
+hardware/kicad/.backups/
+*.kicad_prl
+*.kicad-backups/
+fp-info-cache
+
+# Generated reports (regenerate with `run_erc` / `run_drc`, not source)
+*.erc.json
+*.drc.json

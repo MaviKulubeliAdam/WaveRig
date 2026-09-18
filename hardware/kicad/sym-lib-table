@@ -1,0 +1,10 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "WaveRig_Custom")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/lib/WaveRig_Custom.kicad_sym")
+		(options "")
+		(descr "WaveRig_Custom symbols (kicad-claude)")
+	)
+)

@@ -1,0 +1,772 @@
+(kicad_sch
+	(version 20250114)
+	(generator "kicad-claude")
+	(generator_version "0.1")
+	(uuid "840e083b-e0fc-4c92-9ef6-5f402d7ae31c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(sheet
+		(at 20 40)
+		(size 30 20)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fee442cc-6c7b-4f6c-9796-7e067c316bac")
+		(property "Sheetname" "Power"
+			(at 20 37.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 20 61.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
+					(page "2")
+				)
+			)
+		)
+		(pin "VBUS_5V" input
+			(at 20 65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2feba8cd-3812-46cb-ac43-5d7d0517d98b")
+		)
+		(pin "5V_HOST" output
+			(at 50 65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec1898d0-c13f-435d-b9f8-8d080a414932")
+		)
+	)
+	(sheet
+		(at 70 40)
+		(size 30 20)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8057cc52-6c91-402d-afb6-e804030a5d01")
+		(property "Sheetname" "MCU"
+			(at 70 37.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 70 61.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
+					(page "2")
+				)
+			)
+		)
+		(pin "+3V3" input
+			(at 70 65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a65e8ee-cd9e-4338-b7ca-78b6c3c7c262")
+		)
+		(pin "CIV_CTRL" output
+			(at 71 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e66c5729-05ec-4ce9-aae1-280ca1f3be2d")
+		)
+		(pin "RXD0" input
+			(at 74 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6169675b-aa51-40a4-b828-9d51556d9632")
+		)
+		(pin "TXD0" output
+			(at 77 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c98cacf1-ab19-469c-8819-8dace3abee13")
+		)
+		(pin "SPI_SCLK" output
+			(at 80 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19391f86-f108-4abd-8c19-985ad3584669")
+		)
+		(pin "SPI_MOSI" output
+			(at 83 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9314ea7-6f64-4b6e-b45d-9ec5fd005fcb")
+		)
+		(pin "SPI_MISO" input
+			(at 86 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c77c8e7-a65a-47ca-a6f6-5349ac4d22f4")
+		)
+		(pin "SPI_CS" output
+			(at 89 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ccc78af-a790-4f27-964c-35e434c48f72")
+		)
+		(pin "HOST_INT" input
+			(at 92 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ab8d527-edcd-4c79-a984-c40b921e5de6")
+		)
+		(pin "HOST_RESET" output
+			(at 95 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16d47ac2-f86a-43bd-bd85-2ab7521ca838")
+		)
+		(pin "USB_D+" bidirectional
+			(at 100 75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e657247c-7b49-4f14-8b64-8501468d5b87")
+		)
+		(pin "USB_D-" bidirectional
+			(at 100 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5083d997-1c32-4b71-94b2-f9627006cd36")
+		)
+	)
+	(sheet
+		(at 120 40)
+		(size 30 20)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "858b2aba-e51e-42c8-9173-e9d65743bc21")
+		(property "Sheetname" "USB_Device"
+			(at 120 37.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_device.kicad_sch"
+			(at 120 61.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
+					(page "2")
+				)
+			)
+		)
+		(pin "VBUS_5V" output
+			(at 120 65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d52cf058-7977-4010-ac3a-fc69c1ae8334")
+		)
+		(pin "USB_D+" bidirectional
+			(at 120 75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "892e0b3c-639e-451b-a5a5-0dc7c6c9c8a5")
+		)
+		(pin "USB_D-" bidirectional
+			(at 120 70 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b665035f-477b-419e-b3f6-5200d89707e2")
+		)
+	)
+	(sheet
+		(at 20 90)
+		(size 30 20)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "890b54cb-1ed8-4869-b127-85ce65e524b6")
+		(property "Sheetname" "CIV"
+			(at 20 87.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "civ.kicad_sch"
+			(at 20 111.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
+					(page "2")
+				)
+			)
+		)
+		(pin "CIV_CTRL" input
+			(at 20 125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3777c10c-5bbe-484e-936a-f5a8ce8451a5")
+		)
+	)
+	(sheet
+		(at 70 90)
+		(size 30 20)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "59829c3d-9a94-44ba-9ad4-d9229f834aed")
+		(property "Sheetname" "RS232_CAT"
+			(at 70 87.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs232_cat.kicad_sch"
+			(at 70 111.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
+					(page "2")
+				)
+			)
+		)
+		(pin "TXD0" input
+			(at 70 125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "edb64890-6a15-45a9-ad90-09a01bee902b")
+		)
+		(pin "RXD0" output
+			(at 70 120 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7440424-773c-4311-a522-6d41915c79eb")
+		)
+	)
+	(sheet
+		(at 120 90)
+		(size 30 20)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2f9e5adc-daa4-48f2-8cb7-fa5e6bbadd2d")
+		(property "Sheetname" "USB_Host"
+			(at 120 87.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_host.kicad_sch"
+			(at 120 111.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
+					(page "2")
+				)
+			)
+		)
+		(pin "5V_HOST" input
+			(at 120 115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d32ba1e0-95c3-47be-9ec0-734721a0a512")
+		)
+		(pin "SPI_SCLK" input
+			(at 120 128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "952a52a2-9c90-45e6-9aa6-2231c9715365")
+		)
+		(pin "SPI_MOSI" input
+			(at 120 125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "02000d37-405e-4c15-8c3e-2eecd8959260")
+		)
+		(pin "SPI_MISO" output
+			(at 120 122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a112f7b6-4917-4f41-abe6-dbc445f2eb8b")
+		)
+		(pin "SPI_CS" input
+			(at 120 119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a3fd938-c912-4909-a8a0-619b59b1fe98")
+		)
+		(pin "HOST_INT" output
+			(at 120 116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5762d00-8ef8-4c73-86c3-b1356451aef4")
+		)
+		(pin "HOST_RESET" input
+			(at 120 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4217e306-01ca-432d-8594-ca6935bdbf1f")
+		)
+	)
+	(label "VBUS_5V"
+		(at 20 65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e8844e4-3537-4a27-9ecc-fc50d6904f1d")
+	)
+	(label "VBUS_5V"
+		(at 120 65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3565b66b-ea56-44d3-bb7c-8207120c8111")
+	)
+	(label "5V_HOST"
+		(at 50 65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e445a1f-4e5b-44ea-af8e-98d1438e5cac")
+	)
+	(label "5V_HOST"
+		(at 120 115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10473223-dbfa-46c2-b95d-1c1408215008")
+	)
+	(label "CIV_CTRL"
+		(at 71 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12b16e51-ef8e-42c2-8515-bb6f9bfce0ba")
+	)
+	(label "RXD0"
+		(at 74 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90c44554-1013-4bd4-86a3-c2dac3da36b7")
+	)
+	(label "TXD0"
+		(at 77 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09cbf220-22eb-459a-8fef-cfec1497c2be")
+	)
+	(label "SPI_SCLK"
+		(at 80 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60b99b5c-c026-44a2-812b-d4309318a166")
+	)
+	(label "SPI_MOSI"
+		(at 83 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdbf2673-2a97-437b-8a65-bc97b0175689")
+	)
+	(label "SPI_MISO"
+		(at 86 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9274b607-bdd7-4b73-adba-2eaf82d33fca")
+	)
+	(label "SPI_CS"
+		(at 89 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50a771e7-444c-4ce6-83d5-bac07920fc18")
+	)
+	(label "HOST_INT"
+		(at 92 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b73ef14-f517-49aa-abcc-b90409958027")
+	)
+	(label "HOST_RESET"
+		(at 95 80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a34b92db-efda-4e0b-96fb-04188334daa7")
+	)
+	(label "USB_D+"
+		(at 100 75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e9027a4-61f0-473f-8b6a-fa12f039c6fb")
+	)
+	(label "USB_D-"
+		(at 100 70 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93c33523-47bf-4e83-919c-1c3352bc18ee")
+	)
+	(label "CIV_CTRL"
+		(at 20 125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40b0f310-92c2-43e0-abb5-d789e0eddb88")
+	)
+	(label "TXD0"
+		(at 70 125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "876db329-fbdc-48ba-a359-6bcdfd547ac3")
+	)
+	(label "RXD0"
+		(at 70 120 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d2fbde-d9ce-4d82-95e2-48045388bc3f")
+	)
+	(label "USB_D+"
+		(at 120 75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36b26c2e-2a09-46a9-8a7d-3ff8f1338cb8")
+	)
+	(label "USB_D-"
+		(at 120 70 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "778a3dc0-7008-4e35-a232-63b22d4aaf7f")
+	)
+	(label "SPI_SCLK"
+		(at 120 128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "200ffa52-aece-4dcb-9af3-273fe4276231")
+	)
+	(label "SPI_MOSI"
+		(at 120 125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5712bf4-5a84-497d-96df-8e57bc70230d")
+	)
+	(label "SPI_MISO"
+		(at 120 122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cf8335c-720c-4fb4-9bbd-992beacad9a3")
+	)
+	(label "SPI_CS"
+		(at 120 119 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "323c3890-3100-4919-a717-69a7fb9546db")
+	)
+	(label "HOST_INT"
+		(at 120 116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31a8038b-74c7-4dcd-9320-df1cc00c79da")
+	)
+	(label "HOST_RESET"
+		(at 120 113 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84263430-5ebe-49d3-9f24-aa169c712a6f")
+	)
+)
