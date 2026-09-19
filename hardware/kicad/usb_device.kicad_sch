@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
-	(generator "kicad-claude")
-	(generator_version "0.1")
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
 	(uuid "71e15ddc-3740-4666-8ba3-32a3d7bd1e64")
 	(paper "A4")
 	(lib_symbols
@@ -193,8 +193,7 @@
 				)
 				(polyline
 					(pts
-						(xy -8.89 -3.81)
-						(xy -8.89 3.81)
+						(xy -8.89 -3.81) (xy -8.89 3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -289,8 +288,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81)
-						(xy -5.08 -3.81)
+						(xy -5.08 3.81) (xy -5.08 -3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -313,10 +311,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.318)
-						(xy 0 6.858)
-						(xy 1.27 4.318)
-						(xy -1.27 4.318)
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
 					)
 					(stroke
 						(width 0.254)
@@ -328,9 +323,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.032)
-						(xy 2.54 0.508)
-						(xy 2.54 1.778)
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0.508)
@@ -342,9 +335,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.302)
-						(xy -2.54 -0.762)
-						(xy -2.54 0.508)
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
 					)
 					(stroke
 						(width 0.508)
@@ -356,8 +347,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.842)
-						(xy 0 4.318)
+						(xy 0 -5.842) (xy 0 4.318)
 					)
 					(stroke
 						(width 0.508)
@@ -892,12 +882,7 @@
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 -1.27)
-						(xy 1.27 -1.27)
-						(xy 0 -2.54)
-						(xy -1.27 -1.27)
-						(xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -931,23 +916,556 @@
 			(embedded_fonts no)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(wire
+		(pts
+			(xy 55.24 99.84) (xy 70 96.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19828f3c-6e9e-4430-97f4-ba48bd77b027")
+	)
+	(wire
+		(pts
+			(xy 55.24 112.54) (xy 55.24 115.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e176d5a-3171-41cc-b67a-bfb5adca4f90")
+	)
+	(wire
+		(pts
+			(xy 55.24 107.46) (xy 55.24 110)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54551647-1233-4986-bd3d-939cb3180ab9")
+	)
+	(wire
+		(pts
+			(xy 55.24 102.38) (xy 70 102.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49e085a-6d3a-4353-93cd-76efb824ea4b")
+	)
+	(hierarchical_label "VBUS_5V"
+		(shape output)
+		(at 55.24 94.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03a4c74b-6f60-44e7-b926-8967c6ef81d0")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 55.24 107.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66ed4c4a-7108-4849-9591-9cbe10008a98")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 55.24 112.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ef4650b-fddc-4a7d-ac02-3c49d30de1c0")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 70 103.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13ac43b4-fecc-4b25-8ee3-f9642481ed8e")
+		(property "Reference" "#PWR0003"
+			(at 70 103.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70 103.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70 103.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 103.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 70 103.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbdbb602-75de-45c1-ae4d-e8e13c97c00c")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
+					(reference "#PWR0003")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(embedded_fonts no)
+	(symbol
+		(lib_id "Device:R")
+		(at 70 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "183d20af-9ff0-45ae-8840-8df4c2bd61c1")
+		(property "Reference" "R8"
+			(at 70 100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 70 100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 70 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e68494a3-3943-48d9-939f-472f14ef3bc9")
+		)
+		(pin "2"
+			(uuid "f404fec0-29ae-4edb-9d4f-f038a3865a24")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 70 109.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18824fa2-2771-4df5-ac28-bc1958064416")
+		(property "Reference" "#PWR0004"
+			(at 70 109.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 70 109.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70 109.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 109.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 70 109.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa6fdf4c-bb24-42d6-a79f-17a9dba58a1b")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
+					(reference "#PWR0004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 32.38 132.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52f0234e-d853-44ac-8138-ea2ebe509dff")
+		(property "Reference" "#PWR0002"
+			(at 32.38 132.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 32.38 132.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.38 132.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.38 132.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 32.38 132.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc5928ee-352a-433b-ba85-441ebdd3da53")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
+					(reference "#PWR0002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 70 106 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "702e07bb-1ad2-4fa5-8a7d-1b8e399a5e3a")
+		(property "Reference" "R9"
+			(at 70 106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 70 106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70 106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70 106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 70 106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e2d8e69-4f67-4a17-ab2f-ed56281ddf44")
+		)
+		(pin "2"
+			(uuid "8b10b25b-f8b9-4286-a4c5-8c0c48735d9a")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40 132.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfbf5689-bb35-4f13-abd8-ddb24b4208ba")
+		(property "Reference" "#PWR0001"
+			(at 40 132.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40 132.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40 132.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40 132.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40 132.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11db4a0a-74a8-4a1c-be73-631480adbdf7")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
+					(reference "#PWR0001")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 40 110 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d73ac847-ca34-43a9-bb1e-b3cafd9eac82")
 		(property "Reference" "J2"
 			(at 40 110 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,6 +1474,8 @@
 		)
 		(property "Value" "USB-C_16P-F-SMT"
 			(at 40 110 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,29 +1484,35 @@
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
 			(at 40 110 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 40 110 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 			(at 40 110 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -1043,471 +1569,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 70 100 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "183d20af-9ff0-45ae-8840-8df4c2bd61c1")
-		(property "Reference" "R8"
-			(at 70 100 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
-		(property "Value" "5.1k"
-			(at 70 100 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 70 100 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 70 100 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 70 100 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e68494a3-3943-48d9-939f-472f14ef3bc9")
-		)
-		(pin "2"
-			(uuid "f404fec0-29ae-4edb-9d4f-f038a3865a24")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 70 106 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "702e07bb-1ad2-4fa5-8a7d-1b8e399a5e3a")
-		(property "Reference" "R9"
-			(at 70 106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 70 106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 70 106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 70 106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 70 106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e2d8e69-4f67-4a17-ab2f-ed56281ddf44")
-		)
-		(pin "2"
-			(uuid "8b10b25b-f8b9-4286-a4c5-8c0c48735d9a")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 55.24 99.84)
-			(xy 70 96.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19828f3c-6e9e-4430-97f4-ba48bd77b027")
-	)
-	(wire
-		(pts
-			(xy 55.24 102.38)
-			(xy 70 102.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49e085a-6d3a-4353-93cd-76efb824ea4b")
-	)
-	(wire
-		(pts
-			(xy 55.24 112.54)
-			(xy 55.24 115.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e176d5a-3171-41cc-b67a-bfb5adca4f90")
-	)
-	(wire
-		(pts
-			(xy 55.24 107.46)
-			(xy 55.24 110)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54551647-1233-4986-bd3d-939cb3180ab9")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40 132.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfbf5689-bb35-4f13-abd8-ddb24b4208ba")
-		(property "Reference" "#PWR0001"
-			(at 40 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 40 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11db4a0a-74a8-4a1c-be73-631480adbdf7")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
-					(reference "#PWR0001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 32.38 132.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52f0234e-d853-44ac-8138-ea2ebe509dff")
-		(property "Reference" "#PWR0002"
-			(at 32.38 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 32.38 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 32.38 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 32.38 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 32.38 132.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc5928ee-352a-433b-ba85-441ebdd3da53")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
-					(reference "#PWR0002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 70 103.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13ac43b4-fecc-4b25-8ee3-f9642481ed8e")
-		(property "Reference" "#PWR0003"
-			(at 70 103.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 70 103.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 70 103.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 70 103.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 70 103.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbdbb602-75de-45c1-ae4d-e8e13c97c00c")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
-					(reference "#PWR0003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 70 109.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18824fa2-2771-4df5-ac28-bc1958064416")
-		(property "Reference" "#PWR0004"
-			(at 70 109.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 70 109.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 70 109.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 70 109.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 70 109.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa6fdf4c-bb24-42d6-a79f-17a9dba58a1b")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/858b2aba-e51e-42c8-9173-e9d65743bc21"
-					(reference "#PWR0004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(hierarchical_label "VBUS_5V"
-		(shape output)
-		(at 55.24 94.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03a4c74b-6f60-44e7-b926-8967c6ef81d0")
-	)
-	(hierarchical_label "USB_D+"
-		(shape bidirectional)
-		(at 55.24 112.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8ef4650b-fddc-4a7d-ac02-3c49d30de1c0")
-	)
-	(hierarchical_label "USB_D-"
-		(shape bidirectional)
-		(at 55.24 107.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66ed4c4a-7108-4849-9591-9cbe10008a98")
 	)
 )

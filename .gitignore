@@ -10,3 +10,7 @@ fp-info-cache
 
 # Generated netlist (regenerate with kicad-cli sch export netlist)
 hardware/kicad/fab/
+
+# KiCad local history / lock files
+hardware/kicad/.history/
+*.lck
