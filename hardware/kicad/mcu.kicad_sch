@@ -3753,10 +3753,6 @@
 		(uuid "efb81479-5094-4f24-bab1-b49010a3f270")
 	)
 	(no_connect
-		(at 24.76 107.46)
-		(uuid "975ac7c9-2ad8-4714-8c22-0f1fb655ce2b")
-	)
-	(no_connect
 		(at 24.76 110)
 		(uuid "e1d52b67-a564-4d82-b40b-d943b583cc9e")
 	)
@@ -3835,5 +3831,157 @@
 	(no_connect
 		(at 24.76 94.76)
 		(uuid "cbf914e7-b292-4d98-af77-b1e8cac97676")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 5 84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d5798ae-af3e-4d32-b871-b2600a151f1c")
+		(property "Reference" "C29"
+			(at 5 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 5 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 5 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 5 84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71296823-bfea-4beb-b60b-24e8e257d3fd")
+		)
+		(pin "2"
+			(uuid "661fa39c-f912-487c-ae5d-1c4a90efef32")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "EN_RST"
+		(at 5 80.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55011095-ab86-4435-854f-4208c08fe9c7")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 5 87.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b5ba54b-becd-4d4b-b207-e596776e276c")
+		(property "Reference" "#PWR0015"
+			(at 5 87.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 5 87.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 5 87.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5 87.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 5 87.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80657095-3aff-466c-8171-568449a4bf3c")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
+					(reference "#PWR0015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(hierarchical_label "CIV_RX"
+		(shape input)
+		(at 24.76 107.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51d4327f-3e7d-4644-bbc8-7b7cac5bb26b")
 	)
 )

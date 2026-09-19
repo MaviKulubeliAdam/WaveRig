@@ -1721,7 +1721,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX202EESE+T"
+		(property "Value" "MAX3232EESE+T"
 			(at 40 110 0)
 			(effects
 				(font
@@ -1729,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 40 110 0)
 			(effects
 				(font

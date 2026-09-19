@@ -1405,17 +1405,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.54 104.92)
-			(xy 47.54 107.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58cdebd4-5587-4d8c-b5b3-1aada7c9ee35")
-	)
-	(wire
-		(pts
 			(xy 33.81 110)
 			(xy 39.92 110)
 		)
@@ -1707,5 +1696,103 @@
 	(no_connect
 		(at 64.92 104.92)
 		(uuid "511b5558-3b2f-4477-b8df-be3e103a9261")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72 95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "713f41bc-9f13-40d4-b26c-4b71f03b1652")
+		(property "Reference" "R19"
+			(at 72 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 72 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86755b48-2c62-41a0-8cbc-7a66057a96f5")
+		)
+		(pin "2"
+			(uuid "8a247fd3-f6e2-4116-897e-88484d3bbba1")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/890b54cb-1ed8-4869-b127-85ce65e524b6"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "CIV_TIP"
+		(at 64.92 107.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65b32239-7b2c-4eeb-adb9-3e6baaa87806")
+	)
+	(label "CIV_TIP"
+		(at 68.19 95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a8e426d-08e2-4371-b06e-f22cc7fc1ee7")
+	)
+	(hierarchical_label "CIV_RX"
+		(shape output)
+		(at 75.81 95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fc6f201-fbe8-47ad-96c2-28088f43274e")
 	)
 )
