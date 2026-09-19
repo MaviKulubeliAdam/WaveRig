@@ -962,7 +962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
 			(at 40 110 0)
 			(effects
 				(font
@@ -1068,7 +1068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70 100 0)
 			(effects
 				(font
@@ -1135,7 +1135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70 106 0)
 			(effects
 				(font

@@ -2027,7 +2027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
 			(at 15 80 0)
 			(effects
 				(font
@@ -2094,7 +2094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
 			(at 15 95 0)
 			(effects
 				(font
@@ -2161,7 +2161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 15 72 0)
 			(effects
 				(font
@@ -2228,7 +2228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 15 87 0)
 			(effects
 				(font
@@ -2295,7 +2295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 75 110 0)
 			(effects
 				(font
@@ -2368,7 +2368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65 102 0)
 			(effects
 				(font
@@ -2435,7 +2435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70 102 0)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40 130 0)
 			(effects
 				(font
@@ -2569,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46 130 0)
 			(effects
 				(font
@@ -2862,134 +2862,6 @@
 			(project "WaveRig"
 				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
 					(reference "#PWR0004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.08 80 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8b8ce32-5553-420f-b192-6cb724ff3ccd")
-		(property "Reference" "#PWR0005"
-			(at 20.08 80 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.08 80 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.08 80 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.08 80 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.08 80 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00420e98-3a33-4794-94fd-f1656703cf88")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
-					(reference "#PWR0005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.08 95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2a1ef03-620e-48d2-be46-b5c40e5211a4")
-		(property "Reference" "#PWR0006"
-			(at 20.08 95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.08 95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.08 95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.08 95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.08 95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4403d6ab-c6ba-494c-84d9-c4364a072b55")
-		)
-		(instances
-			(project "WaveRig"
-				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
-					(reference "#PWR0006")
 					(unit 1)
 				)
 			)
@@ -3748,15 +3620,220 @@
 		)
 		(uuid "594de6d0-887a-4820-98dd-1bf27162b237")
 	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 40 82.06 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 9.92 80 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99cc534e-500f-48f5-beb7-8f1b74ee20c0")
+		(property "Reference" "#PWR0005"
+			(at 9.92 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "7d806c5b-ed28-43b8-af3c-cefa9e834bec")
+		(property "Value" "GND"
+			(at 9.92 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 9.92 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 9.92 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 9.92 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06e47256-f4e8-4286-b73d-bd920a6524de")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
+					(reference "#PWR0005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 9.92 95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3131f748-975b-4e93-a869-4affab0f607e")
+		(property "Reference" "#PWR0006"
+			(at 9.92 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 9.92 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 9.92 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 9.92 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 9.92 95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bcc189d-ba1d-4619-8788-c535c43a065a")
+		)
+		(instances
+			(project "WaveRig"
+				(path "/840e083b-e0fc-4c92-9ef6-5f402d7ae31c/8057cc52-6c91-402d-afb6-e804030a5d01"
+					(reference "#PWR0006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 24.76 102.38)
+		(uuid "efb81479-5094-4f24-bab1-b49010a3f270")
+	)
+	(no_connect
+		(at 24.76 107.46)
+		(uuid "975ac7c9-2ad8-4714-8c22-0f1fb655ce2b")
+	)
+	(no_connect
+		(at 24.76 110)
+		(uuid "e1d52b67-a564-4d82-b40b-d943b583cc9e")
+	)
+	(no_connect
+		(at 24.76 130.32)
+		(uuid "9d8c884f-301b-4b9e-a7d7-9054fe1aff6a")
+	)
+	(no_connect
+		(at 24.76 132.86)
+		(uuid "c52da34d-d2b1-4303-9633-1b4e4810dd5b")
+	)
+	(no_connect
+		(at 55.24 92.22)
+		(uuid "931837a1-4aca-449c-b20a-674c79a9be6b")
+	)
+	(no_connect
+		(at 55.24 94.76)
+		(uuid "27b89875-0620-4fce-bb74-28b77f854f67")
+	)
+	(no_connect
+		(at 24.76 99.84)
+		(uuid "bcade181-1157-4884-a422-229d775e1e8a")
+	)
+	(no_connect
+		(at 55.24 127.78)
+		(uuid "88c7036d-8229-4669-9c58-96ca06d41b96")
+	)
+	(no_connect
+		(at 55.24 130.32)
+		(uuid "7fdf88ac-716c-47c7-9462-d7c562ecc850")
+	)
+	(no_connect
+		(at 55.24 132.86)
+		(uuid "76bf742b-ea10-485f-933a-fb6559a17c1a")
+	)
+	(no_connect
+		(at 55.24 125.24)
+		(uuid "9d192093-d650-4db0-8fd7-24e7f31fedb2")
+	)
+	(no_connect
+		(at 55.24 104.92)
+		(uuid "06597f48-c5db-4f76-8023-78472dd5817d")
+	)
+	(no_connect
+		(at 55.24 107.46)
+		(uuid "c4ee50bd-6639-44e1-b3a7-7c2d983fc83e")
+	)
+	(no_connect
+		(at 55.24 110)
+		(uuid "96b789d0-0386-4d1d-867e-27ffa61e6f91")
+	)
+	(no_connect
+		(at 55.24 112.54)
+		(uuid "839d10c3-4969-4ef0-8a27-a881c3a34825")
+	)
+	(no_connect
+		(at 55.24 115.08)
+		(uuid "ba570b5c-b3f4-4778-b048-7ac83a2d6486")
+	)
+	(no_connect
+		(at 55.24 117.62)
+		(uuid "e70aa864-5816-46d8-8de0-9590b35885f0")
+	)
+	(no_connect
+		(at 55.24 120.16)
+		(uuid "ba966da4-a0dc-4de6-9d5c-291ce0cd43e3")
+	)
+	(no_connect
+		(at 55.24 122.7)
+		(uuid "92f9b276-611e-4ca5-80c9-ef4c643e8d18")
+	)
+	(no_connect
+		(at 24.76 97.3)
+		(uuid "1dfbc5db-a71d-457f-a766-c63a1a43f5ee")
+	)
+	(no_connect
+		(at 24.76 94.76)
+		(uuid "cbf914e7-b292-4d98-af77-b1e8cac97676")
 	)
 )

@@ -7,3 +7,6 @@ fp-info-cache
 # Generated reports (regenerate with `run_erc` / `run_drc`, not source)
 *.erc.json
 *.drc.json
+
+# Generated netlist (regenerate with kicad-cli sch export netlist)
+hardware/kicad/fab/

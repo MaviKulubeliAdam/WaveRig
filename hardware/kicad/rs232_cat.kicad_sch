@@ -1641,7 +1641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 			(at 75 110 0)
 			(effects
 				(font
@@ -1729,7 +1729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
 			(at 40 110 0)
 			(effects
 				(font
@@ -1838,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 10 91 0)
 			(effects
 				(font
@@ -1905,7 +1905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70 91 0)
 			(effects
 				(font
@@ -1972,7 +1972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70 100 0)
 			(effects
 				(font
@@ -2039,7 +2039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70 108 0)
 			(effects
 				(font
@@ -2106,7 +2106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30 82 0)
 			(effects
 				(font
