@@ -6158,7 +6158,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "12MHz CL18pF ESR60R max"
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "8319b2af-c6ee-434a-b8bb-582a9715ee60")

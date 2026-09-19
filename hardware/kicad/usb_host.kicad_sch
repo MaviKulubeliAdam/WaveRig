@@ -2037,7 +2037,7 @@
 				)
 			)
 		)
-		(property "Value" "12MHz"
+		(property "Value" "12MHz CL18pF ESR60R max"
 			(at 125 124 0)
 			(effects
 				(font
