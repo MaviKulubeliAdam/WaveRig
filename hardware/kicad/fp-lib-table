@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "WaveRig_Custom") (type "KiCad") (uri "${KIPRJMOD}/lib/WaveRig_Custom.pretty") (options "") (descr ""))
+)
