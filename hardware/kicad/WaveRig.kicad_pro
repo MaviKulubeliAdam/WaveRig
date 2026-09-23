@@ -658,13 +658,42 @@
       {
         "filename": "WaveRig.kicad_sch",
         "name": "WaveRig",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "840e083b-e0fc-4c92-9ef6-5f402d7ae31c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-3,U5,Q2,#FLG1-4,R1-3,R11-13,J4,D1-2,#PWR16-53,C1,C9-18,C24-28,L1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "840e083b-e0fc-4c92-9ef6-5f402d7ae31c",
+      "WaveRig"
+    ],
+    [
+      "fee442cc-6c7b-4f6c-9796-7e067c316bac",
+      "Power"
+    ],
+    [
+      "8057cc52-6c91-402d-afb6-e804030a5d01",
+      "MCU"
+    ],
+    [
+      "858b2aba-e51e-42c8-9173-e9d65743bc21",
+      "USB_Device"
+    ],
+    [
+      "890b54cb-1ed8-4869-b127-85ce65e524b6",
+      "CIV"
+    ],
+    [
+      "59829c3d-9a94-44ba-9ad4-d9229f834aed",
+      "RS232_CAT"
+    ],
+    [
+      "2f9e5adc-daa4-48f2-8cb7-fa5e6bbadd2d",
+      "USB_Host"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
