@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "6198c49d-3904-4cfb-bc83-859c0ec02f1c")
 	(paper "A4")
+	(title_block
+		(rev "0.1")
+		(company "WaveRig")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_A"
 			(pin_names
