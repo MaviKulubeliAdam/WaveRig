@@ -484,8 +484,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "WaveRig_Custom"
+    ],
+    "pinned_symbol_libs": [
+      "WaveRig_Custom"
+    ]
   },
   "meta": {
     "filename": "WaveRig.kicad_pro",
