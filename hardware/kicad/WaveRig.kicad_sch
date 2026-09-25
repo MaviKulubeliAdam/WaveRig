@@ -27,16 +27,6 @@
 	)
 	(wire
 		(pts
-			(xy 50 43.81) (xy 55.08 43.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b5c6f6-c11f-471a-84c0-9d3be5f4fb1f")
-	)
-	(wire
-		(pts
 			(xy 150 46.35) (xy 155.08 46.35)
 		)
 		(stroke
@@ -124,16 +114,6 @@
 			(type default)
 		)
 		(uuid "8cba657b-7f86-4c5e-a867-34b52506a8e7")
-	)
-	(wire
-		(pts
-			(xy 20 43.81) (xy 14.92 43.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db14197-5150-4085-a420-e5ffedd1985f")
 	)
 	(wire
 		(pts
@@ -425,16 +405,6 @@
 		)
 		(uuid "6070ede3-b6ef-4d2b-abe4-437fe71932f3")
 	)
-	(label "VBUS_5V"
-		(at 14.92 43.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d21d864-abd2-4ef5-b737-d5f0e90a5b54")
-	)
 	(label "USB_D-"
 		(at 155.08 48.89 0)
 		(effects
@@ -494,16 +464,6 @@
 			(justify left bottom)
 		)
 		(uuid "a6a37757-69f1-41b0-8f22-55ff56810a81")
-	)
-	(label "5V_HOST"
-		(at 55.08 43.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae43fb96-8728-44b2-8d70-b27cac5930c8")
 	)
 	(label "SPI_SCLK"
 		(at 114.92 93.81 0)
@@ -1091,26 +1051,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(pin "VBUS_5V" input
-			(at 20 43.81 180)
-			(uuid "bec46b32-5e58-4082-bb9a-007245a2fcbd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V_HOST" output
-			(at 50 43.81 0)
-			(uuid "d680f522-4a98-4c31-a4ba-44b1e9c00095")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
