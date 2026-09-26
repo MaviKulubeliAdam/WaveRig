@@ -149,16 +149,6 @@
 		)
 		(uuid "fbdf6ed3-7b8e-4c86-840d-a127762b98bd")
 	)
-	(wire
-		(pts
-			(xy 149.86 43.18) (xy 154.94 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca0faf7-6e21-470f-aa33-d8c0b2fba514")
-	)
 	(label "5V_HOST"
 		(at 114.3 104.14 0)
 		(effects
@@ -348,16 +338,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b655b35-1172-4ded-9909-f64a5e300066")
-	)
-	(label "VBUS_5V"
-		(at 154.94 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6a37757-69f1-41b0-8f22-55ff56810a81")
 	)
 	(label "SPI_SCLK"
 		(at 114.3 93.98 0)
@@ -824,29 +804,19 @@
 				(justify left bottom)
 			)
 		)
-		(pin "VBUS_5V" output
-			(at 149.86 43.18 0)
-			(uuid "ceb28200-e925-4f24-b739-3534b6f484b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_D+" bidirectional
-			(at 149.86 45.72 0)
-			(uuid "95865fd8-197d-4206-885c-115b81e6cd7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_D-" bidirectional
+		(pin "USB_DM" bidirectional
 			(at 149.86 48.26 0)
-			(uuid "41e66697-3fc7-4250-8898-26d77f4e4b60")
+			(uuid "8115b242-d7fb-4d26-8c81-c3bd87e25b12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 149.86 45.72 0)
+			(uuid "0b8de165-a7c8-4c61-b74c-04df5499a26a")
 			(effects
 				(font
 					(size 1.27 1.27)
